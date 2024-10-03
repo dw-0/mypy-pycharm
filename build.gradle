@@ -12,6 +12,9 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
+ *
+ * Modifications:
+ * - 2024-10-03: Modified by Dominik Willner to fix ActionUpdateThread deprecation warnings.
  */
 
 import org.commonmark.node.Node
@@ -32,7 +35,7 @@ buildscript {
 }
 
 plugins {
-    id 'org.jetbrains.intellij' version '1.15.0'
+    id 'org.jetbrains.intellij' version '1.17.4'
     id 'net.ltgt.errorprone' version '3.1.0'
     id 'idea'
     id 'java'
